@@ -1,0 +1,43 @@
+[debug] [2023-10-16T16:45:15.284Z] ----------------------------------------------------------------------
+[debug] [2023-10-16T16:45:15.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shailly\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-16T16:45:15.287Z] CLI Version:   12.7.0
+[debug] [2023-10-16T16:45:15.287Z] Platform:      win32
+[debug] [2023-10-16T16:45:15.287Z] Node Version:  v16.17.0
+[debug] [2023-10-16T16:45:15.288Z] Time:          Mon Oct 16 2023 22:15:15 GMT+0530 (India Standard Time)
+[debug] [2023-10-16T16:45:15.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-16T16:45:15.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-16T16:45:15.378Z] > authorizing via signed-in user (singhimanshu30@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Shailly\Desktop\yt-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-16T16:45:21.123Z] Using project from CLI flag: not-yt
+[debug] [2023-10-16T16:45:21.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/not-yt [none]
+[debug] [2023-10-16T16:45:21.719Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/not-yt 403
+[debug] [2023-10-16T16:45:21.719Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/not-yt {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-16T16:45:21.720Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-16T16:45:21.987Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shailly\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Shailly\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project not-yt. Please make sure the project exists and your account has permission to access it.
