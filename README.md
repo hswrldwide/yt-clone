@@ -12,10 +12,8 @@ npm run start
 ```
 
 ## The project is deployed on Firebase : 
-[Not-utube](https://not-yt.web.app/)
+[yt-clone](https://himanshu-yt.web.app/)
 
-## Project tutorial on YouTube : 
-  [Tutorial of YouTube Clone](https://youtu.be/Mos5QJAje28)
 
 
 ## Contributing
@@ -24,9 +22,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 --- 
 ## Contact
 
-Sumit Dey- [code.sumax@gmail.com](mailto:code.sumax@gmail.com)
+Himanshu Singh- [himanshusingh2k@gmail.com](mailto:himanshusingh2k@gmail.com)
 
-Youtube Channel: [https://www.youtube.com/c/BackbenchCoder](https://www.youtube.com/c/BackbenchCoder)
 
 
 ## License
